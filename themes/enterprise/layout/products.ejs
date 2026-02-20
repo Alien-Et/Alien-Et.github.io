@@ -1,0 +1,219 @@
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <h1 class="page-title animate-fade-up"><%= __('products.title') %></h1>
+      <p class="page-subtitle animate-fade-up delay-1"><%= __('site.slogan') %></p>
+      <nav class="breadcrumb animate-fade-up delay-2">
+        <a href="<%= url_for('/') %>"><%= __('menu.home') %></a>
+        <i class="fas fa-chevron-right"></i>
+        <span><%= __('products.title') %></span>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section class="products-intro">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('products.title') %></span>
+      <h2 class="section-title"><%= __('products.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="products-list">
+      <div class="product-detail animate-on-scroll" id="solar">
+        <div class="product-detail-content">
+          <div class="product-icon-large">
+            <i class="fas fa-solar-panel"></i>
+          </div>
+          <h3><%= __('products.categories.solar') %></h3>
+          <p class="product-tagline"><%= __('products.desc.solar') %></p>
+          <p><%= __('products.solar.desc') %></p>
+          <ul class="product-features">
+            <li><i class="fas fa-check"></i> <%= __('products.solar.feature1') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.solar.feature2') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.solar.feature3') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.solar.feature4') %></li>
+          </ul>
+          <a href="<%= url_for('/contact/') %>" class="btn btn-primary"><%= __('products.consult') %></a>
+        </div>
+        <div class="product-detail-image">
+          <div class="image-placeholder solar-bg">
+            <i class="fas fa-solar-panel"></i>
+            <span><%= __('products.categories.solar') %></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-detail animate-on-scroll" id="battery" data-delay="100">
+        <div class="product-detail-image">
+          <div class="image-placeholder battery-bg">
+            <i class="fas fa-battery-full"></i>
+            <span><%= __('products.categories.battery') %></span>
+          </div>
+        </div>
+        <div class="product-detail-content">
+          <div class="product-icon-large">
+            <i class="fas fa-battery-full"></i>
+          </div>
+          <h3><%= __('products.categories.battery') %></h3>
+          <p class="product-tagline"><%= __('products.desc.battery') %></p>
+          <p><%= __('products.battery.desc') %></p>
+          <ul class="product-features">
+            <li><i class="fas fa-check"></i> <%= __('products.battery.feature1') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.battery.feature2') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.battery.feature3') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.battery.feature4') %></li>
+          </ul>
+          <a href="<%= url_for('/contact/') %>" class="btn btn-primary"><%= __('products.consult') %></a>
+        </div>
+      </div>
+      
+      <div class="product-detail animate-on-scroll" id="station" data-delay="200">
+        <div class="product-detail-content">
+          <div class="product-icon-large">
+            <i class="fas fa-industry"></i>
+          </div>
+          <h3><%= __('products.categories.station') %></h3>
+          <p class="product-tagline"><%= __('products.desc.station') %></p>
+          <p><%= __('products.station.desc') %></p>
+          <ul class="product-features">
+            <li><i class="fas fa-check"></i> <%= __('products.station.feature1') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.station.feature2') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.station.feature3') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.station.feature4') %></li>
+          </ul>
+          <a href="<%= url_for('/contact/') %>" class="btn btn-primary"><%= __('products.consult') %></a>
+        </div>
+        <div class="product-detail-image">
+          <div class="image-placeholder station-bg">
+            <i class="fas fa-industry"></i>
+            <span><%= __('products.categories.station') %></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-detail animate-on-scroll" id="smart" data-delay="300">
+        <div class="product-detail-image">
+          <div class="image-placeholder smart-bg">
+            <i class="fas fa-microchip"></i>
+            <span><%= __('products.categories.smart') %></span>
+          </div>
+        </div>
+        <div class="product-detail-content">
+          <div class="product-icon-large">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3><%= __('products.categories.smart') %></h3>
+          <p class="product-tagline"><%= __('products.desc.smart') %></p>
+          <p><%= __('products.smart.desc') %></p>
+          <ul class="product-features">
+            <li><i class="fas fa-check"></i> <%= __('products.smart.feature1') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.smart.feature2') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.smart.feature3') %></li>
+            <li><i class="fas fa-check"></i> <%= __('products.smart.feature4') %></li>
+          </ul>
+          <a href="<%= url_for('/contact/') %>" class="btn btn-primary"><%= __('products.consult') %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service-process">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('products.process.title') %></span>
+      <h2 class="section-title"><%= __('products.process.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="process-grid">
+      <div class="process-item animate-on-scroll">
+        <div class="process-number">01</div>
+        <div class="process-icon">
+          <i class="fas fa-comments"></i>
+        </div>
+        <h3><%= __('products.process.step1.title') %></h3>
+        <p><%= __('products.process.step1.desc') %></p>
+      </div>
+      <div class="process-item animate-on-scroll" data-delay="100">
+        <div class="process-number">02</div>
+        <div class="process-icon">
+          <i class="fas fa-drafting-compass"></i>
+        </div>
+        <h3><%= __('products.process.step2.title') %></h3>
+        <p><%= __('products.process.step2.desc') %></p>
+      </div>
+      <div class="process-item animate-on-scroll" data-delay="200">
+        <div class="process-number">03</div>
+        <div class="process-icon">
+          <i class="fas fa-hard-hat"></i>
+        </div>
+        <h3><%= __('products.process.step3.title') %></h3>
+        <p><%= __('products.process.step3.desc') %></p>
+      </div>
+      <div class="process-item animate-on-scroll" data-delay="300">
+        <div class="process-number">04</div>
+        <div class="process-icon">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3><%= __('products.process.step4.title') %></h3>
+        <p><%= __('products.process.step4.desc') %></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="industries-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('products.industries.title') %></span>
+      <h2 class="section-title"><%= __('products.industries.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="industries-grid">
+      <div class="industry-card animate-on-scroll">
+        <div class="industry-icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <h3><%= __('products.industries.residential.title') %></h3>
+        <p><%= __('products.industries.residential.desc') %></p>
+      </div>
+      <div class="industry-card animate-on-scroll" data-delay="100">
+        <div class="industry-icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <h3><%= __('products.industries.commercial.title') %></h3>
+        <p><%= __('products.industries.commercial.desc') %></p>
+      </div>
+      <div class="industry-card animate-on-scroll" data-delay="200">
+        <div class="industry-icon">
+          <i class="fas fa-mountain"></i>
+        </div>
+        <h3><%= __('products.industries.ground.title') %></h3>
+        <p><%= __('products.industries.ground.desc') %></p>
+      </div>
+      <div class="industry-card animate-on-scroll" data-delay="300">
+        <div class="industry-icon">
+          <i class="fas fa-warehouse"></i>
+        </div>
+        <h3><%= __('products.industries.storage.title') %></h3>
+        <p><%= __('products.industries.storage.desc') %></p>
+      </div>
+      <div class="industry-card animate-on-scroll" data-delay="400">
+        <div class="industry-icon">
+          <i class="fas fa-charging-station"></i>
+        </div>
+        <h3><%= __('products.industries.integrated.title') %></h3>
+        <p><%= __('products.industries.integrated.desc') %></p>
+      </div>
+      <div class="industry-card animate-on-scroll" data-delay="500">
+        <div class="industry-icon">
+          <i class="fas fa-globe-asia"></i>
+        </div>
+        <h3><%= __('products.industries.overseas.title') %></h3>
+        <p><%= __('products.industries.overseas.desc') %></p>
+      </div>
+    </div>
+  </div>
+</section>

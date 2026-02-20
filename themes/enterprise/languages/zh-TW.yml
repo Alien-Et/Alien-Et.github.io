@@ -1,0 +1,280 @@
+menu:
+  home: 首頁
+  about: 關於我們
+  products: 產品服務
+  news: 新聞動態
+  contact: 聯繫我們
+
+site:
+  name: XX科技
+  slogan: 綠色能源，照亮未來
+  description: 專注於新能源光伏板和新能源電池研發製造的高新技術企業
+
+index:
+  hero:
+    title: 清潔能源解決方案
+    subtitle: 為全球提供高效光伏板與儲能電池產品
+    cta: 瞭解更多
+    contact: 立即諮詢
+    scroll: 向下滾動
+  products:
+    title: 產品與服務
+    subtitle: 為您提供全方位的新能源解決方案
+    learn_more: 瞭解詳情
+  partners:
+    title: 合作夥伴
+    subtitle: 攜手共進，共創未來
+
+features:
+  title: 核心優勢
+  tag: 為什麼選擇我們
+  items:
+    tech:
+      title: 技術領先
+      desc: 擁有300+項光伏與電池核心專利技術
+    green:
+      title: 綠色環保
+      desc: 致力於碳中和，推動可持續發展
+    storage:
+      title: 高效儲能
+      desc: 電池能量密度行業領先，壽命超長
+    global:
+      title: 全球服務
+      desc: 產品遠銷50+國家和地區
+
+products:
+  title: 產品與服務
+  subtitle: 為您提供全方位的新能源解決方案
+  categories:
+    solar: 光伏組件
+    battery: 儲能電池
+    station: 光伏電站
+    smart: 智慧能源
+  desc:
+    solar: 高效單晶硅光伏板
+    battery: 磷酸鐵鋰儲能系統
+    station: 分佈式光伏電站解決方案
+    smart: 智能能源管理系統
+  solar:
+    desc: XX科技G系列光伏組件採用先進的PERC電池技術和半片封裝工藝，組件轉換效率突破23%%，達到行業領先水平。產品涵蓋單晶、多晶、雙面雙玻等多種類型，滿足不同應用場景需求。
+    feature1: 轉換效率高達23%%+
+    feature2: 30年線性功率質保
+    feature3: 抗PID、抗LETID技術
+    feature4: 通過TUV、UL、CE認證
+  battery:
+    desc: XX科技儲能系統採用安全可靠的磷酸鐵鋰(LFP)電池技術，循環壽命超過6000次，日歷壽命達15年以上。產品覆蓋戶用儲能、工商業儲能、大型儲能電站等多種應用場景。
+    feature1: 循環壽命6000次以上
+    feature2: 智能BMS管理系統
+    feature3: 模組化設計，靈活擴展
+    feature4: 10年質保服務
+  station:
+    desc: 提供從專案規劃、方案設計、設備供應、工程建設到運維管理的全流程服務。涵蓋戶用分佈式、工商業分佈式、地面電站等多種類型，累計裝機容量超過5GW。
+    feature1: 全流程一站式服務
+    feature2: 專業設計團隊
+    feature3: 智能運維平台
+    feature4: 25年發電保障
+  smart:
+    desc: 基於物聯網和人工智能技術的智慧能源管理平台，實現光伏發電、儲能調度、用電管理的智能化運營。通過大數據分析優化能源使用效率，降低用電成本。
+    feature1: 實時監控與預警
+    feature2: AI智能調度算法
+    feature3: 多終端數據同步
+    feature4: 能效分析報告
+  process:
+    title: 服務流程
+    subtitle: 專業服務，全程保障
+    step1:
+      title: 需求溝通
+      desc: 深入瞭解客戶用電需求和場地條件
+    step2:
+      title: 方案設計
+      desc: 定制化新能源解決方案設計
+    step3:
+      title: 工程實施
+      desc: 專業團隊施工，確保工程品質
+    step4:
+      title: 運維服務
+      desc: 7x24小時運維保障，無憂使用
+  industries:
+    title: 應用場景
+    subtitle: 覆蓋多種應用場景
+    residential:
+      title: 戶用光伏
+      desc: 家庭屋頂光伏、戶用儲能系統
+    commercial:
+      title: 工商業分佈式
+      desc: 工廠、園區、商業綜合體光伏
+    ground:
+      title: 地面電站
+      desc: 大型集中式光伏電站建設
+    storage:
+      title: 儲能電站
+      desc: 電網側、用戶側儲能系統
+    integrated:
+      title: 光儲充一體化
+      desc: 光伏+儲能+充電樁綜合方案
+    overseas:
+      title: 海外專案
+      desc: 海外光伏電站EPC總承包
+  learn_more: 瞭解詳情
+  consult: 立即諮詢
+
+statistics:
+  items:
+    experience: 年行業經驗
+    patents: 核心專利
+    countries: 服務國家
+    capacity: 年產能
+
+partners:
+  title: 合作夥伴
+  subtitle: 攜手共進，共創未來
+
+about:
+  title: 關於我們
+  subtitle: 綠色能源，照亮未來
+  intro:
+    tag: 公司簡介
+    title: XX科技，照亮未來
+    content: XX科技成立於2010年，是一家專注於新能源光伏板和新能源電池研發製造的高新技術企業。經過十餘年的發展，我們已成為國內領先的新能源解決方案提供商。
+    address: 總部位於XX省，在內蒙古、青海和越南等地設有生產基地。員工超過2000人，研發人員佔比超過30%%。
+    cert1: 國家高新技術企業認證
+    cert2: 國家綠色工廠認證
+    cert3: 300+項核心專利
+  history:
+    title: 發展歷程
+    subtitle: 發展歷程
+    2010:
+      title: 公司成立
+      content: 成立XX科技，專注於光伏板研發
+    2013:
+      title: 業務擴展
+      content: 業務擴展至全國，市場份額大幅提升
+    2016:
+      title: 研發中心
+      content: 成立國家級研發中心，加強技術創新
+    2019:
+      title: 產能升級
+      content: 完成產能升級，年產能達到5GW
+    2022:
+      title: 全球佈局
+      content: 全球銷售網絡覆蓋50+國家和地區
+    2025:
+      title: 未來展望
+      content: 致力於成為全球領先的新能源解決方案提供商
+  team:
+    title: 核心團隊
+    subtitle: 專業團隊，優質服務
+    member1:
+      name: 張三
+      role: 首席執行官
+      desc: 20+年新能源行業經驗
+    member2:
+      name: 李四
+      role: 首席技術官
+      desc: 光伏工程博士，15+年研發經驗
+    member3:
+      name: 王五
+      role: 首席運營官
+      desc: 製造管理與供應鏈優化專家
+    member4:
+      name: 趙六
+      role: 首席營銷官
+      desc: 領導市場戰略與全球市場拓展
+  culture:
+    title: 企業文化
+    subtitle: 核心價值觀
+    value1:
+      title: 創新
+      content: 不斷探索新技術與解決方案
+    value2:
+      title: 誠信
+      content: 誠信經營，真誠對待客戶與合作夥伴
+    value3:
+      title: 卓越
+      content: 精益求精，追求產品與服務的完美
+    value4:
+      title: 可持續發展
+      content: 致力於綠色能源與環境保護
+  cert:
+    title: 資質榮譽
+    subtitle: 行業認可
+    item1: ISO9001質量管理體系認證
+    item2: ISO14001環境管理體系認證
+    item3: IEC61215光伏組件認證
+    item4: CE認證
+    item5: TUV認證
+    item6: UL認證
+
+news:
+  title: 新聞資訊
+  subtitle: 瞭解最新動態
+  read_more: 閱讀更多
+  categories:
+    all: 全部
+    company: 公司新聞
+    industry: 行業動態
+    tech: 技術分享
+
+contact:
+  title: 聯繫我們
+  subtitle: 期待與您的合作
+  form:
+    title: 在線諮詢
+    subtitle: 請填寫以下信息，我們會儘快與您聯繫
+    name: 姓名
+    company: 公司名稱
+    email: 郵箱
+    phone: 電話
+    subject: 諮詢類型
+    message: 留言內容
+    submit: 提交諮詢
+    placeholder:
+      name: 請輸入您的姓名
+      company: 請輸入公司名稱
+      email: 請輸入您的郵箱
+      phone: 請輸入您的電話
+      message: 請輸入您的留言內容
+  types:
+    product: 產品諮詢
+    quote: 報價請求
+    support: 技術支持
+    partnership: 商務合作
+    other: 其他
+  info:
+    title: 聯繫方式
+    address: 地址
+    phone: 電話
+    email: 郵箱
+    hours: 工作時間
+    addressValue: XX省XX市XX區XX路XX號
+    phoneValue: xxx-xxxx-xxxx
+    emailValue: xxxxxx@xxx.com
+    hoursValue: 周一至周五 9:00 - 18:00
+    wechat: 微信
+  social:
+    title: 關注我們
+
+footer:
+  copyright: 版權所有
+  icp: 備案號
+  links:
+    privacy: 隱私政策
+    terms: 使用條款
+
+pagination:
+  prev: 上頁
+  next: 下頁
+
+floating_cards:
+  capacity: 年產能 15GW+
+  countries: 50+ 國家
+  energy: 綠色能源
+
+common:
+  language: 繁
+  loading: 加載中...
+  error: 出錯了
+  success: 成功
+  confirm: 確認
+  cancel: 取消
+  required: 必填項

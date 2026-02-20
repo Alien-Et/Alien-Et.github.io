@@ -1,0 +1,113 @@
+menu:
+  home: /
+  about: /about
+  products: /products
+  news: /news
+  contact: /contact
+
+site_name_key: site.name
+site_slogan_key: site.slogan
+site_description_key: site.description
+
+hero:
+  enable: true
+  title_key: index.hero.title
+  subtitle_key: index.hero.subtitle
+  background: /images/hero-bg.svg
+  cta_text_key: index.hero.cta
+  cta_link: /about
+
+features:
+  enable: true
+  title_key: features.title
+  items:
+    - icon: fa-solar-panel
+      title_key: features.items.tech.title
+      description_key: features.items.tech.desc
+    - icon: fa-leaf
+      title_key: features.items.green.title
+      description_key: features.items.green.desc
+    - icon: fa-battery-full
+      title_key: features.items.storage.title
+      description_key: features.items.storage.desc
+    - icon: fa-globe-asia
+      title_key: features.items.global.title
+      description_key: features.items.global.desc
+
+products:
+  enable: true
+  title_key: products.title
+  items:
+    - name: solar
+      icon: fa-solar-panel
+      title_key: products.categories.solar
+      description_key: products.desc.solar
+      link: /products/#solar
+    - name: battery
+      icon: fa-battery-full
+      title_key: products.categories.battery
+      description_key: products.desc.battery
+      link: /products/#battery
+    - name: station
+      icon: fa-industry
+      title_key: products.categories.station
+      description_key: products.desc.station
+      link: /products/#station
+    - name: smart
+      icon: fa-microchip
+      title_key: products.categories.smart
+      description_key: products.desc.smart
+      link: /products/#smart
+
+statistics:
+  enable: true
+  items:
+    - number: 15
+      suffix: +
+      label_key: statistics.items.experience
+    - number: 300
+      suffix: +
+      label_key: statistics.items.patents
+    - number: 50
+      suffix: +
+      label_key: statistics.items.countries
+    - number: 10
+      suffix: GW+
+      label_key: statistics.items.capacity
+
+partners:
+  enable: true
+  title_key: partners.title
+
+contact:
+  enable: true
+  title_key: contact.title
+  address: xx省xx市xx区xx路xx号
+  phone: xxx-xxxx-xxxx
+  email: xxxxxx@xxx.com
+  wechat: xxx_official
+
+footer:
+  copyright: © 2026 XX科技 版权所有
+  icp: 苏ICP备XXXXXXXX号
+  links:
+    - name_key: footer.links.privacy
+      url: /privacy
+    - name_key: footer.links.terms
+      url: /terms
+
+social:
+  weibo: https://weibo.com/xxx
+  wechat: /images/qrcode.png
+  linkedin: https://linkedin.com/company/xxx
+
+animation:
+  enable: true
+  duration: 0.6
+
+colors:
+  primary: "#00A86B"
+  secondary: "#FFD700"
+  accent: "#FF6B35"
+  dark: "#1A1A2E"
+  light: "#F8F9FA"

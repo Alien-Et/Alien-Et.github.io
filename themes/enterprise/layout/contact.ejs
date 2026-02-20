@@ -1,0 +1,148 @@
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <h1 class="page-title animate-fade-up"><%= __('contact.title') %></h1>
+      <p class="page-subtitle animate-fade-up delay-1"><%= __('contact.subtitle') %></p>
+      <nav class="breadcrumb animate-fade-up delay-2">
+        <a href="<%= url_for('/') %>"><%= __('menu.home') %></a>
+        <i class="fas fa-chevron-right"></i>
+        <span><%= __('contact.title') %></span>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info animate-on-scroll">
+        <span class="section-tag"><%= __('contact.info.title') %></span>
+        <h2 class="section-title text-left"><%= __('contact.subtitle') %></h2>
+        <p><%= __('site.description') %></p>
+        
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4><%= __('contact.info.address') %></h4>
+              <p><%= __('contact.info.addressValue') %></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h4><%= __('contact.info.phone') %></h4>
+              <p><a href="tel:xxx-xxxx-xxxx"><%= __('contact.info.phoneValue') %></a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h4><%= __('contact.info.email') %></h4>
+              <p><a href="mailto:xxxxxx@xxx.com"><%= __('contact.info.emailValue') %></a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-text">
+              <h4><%= __('contact.info.hours') %></h4>
+              <p><%= __('contact.info.hoursValue') %></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-contact">
+          <h4><%= __('contact.social.title') %></h4>
+          <div class="social-links">
+            <a href="<%= theme.social.weibo %>" class="social-btn" target="_blank">
+              <i class="fab fa-weibo"></i>
+            </a>
+            <a href="#" class="social-btn wechat-btn">
+              <i class="fab fa-weixin"></i>
+            </a>
+            <a href="<%= theme.social.linkedin %>" class="social-btn" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form-wrapper animate-on-scroll" data-delay="200">
+        <form class="contact-form" id="contactForm">
+          <h3><%= __('contact.form.title') %></h3>
+          <p><%= __('contact.form.subtitle') %></p>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name"><%= __('contact.form.name') %> *</label>
+              <input type="text" id="name" name="name" required placeholder="<%= __('contact.form.placeholder.name') %>">
+            </div>
+            <div class="form-group">
+              <label for="company"><%= __('contact.form.company') %></label>
+              <input type="text" id="company" name="company" placeholder="<%= __('contact.form.placeholder.company') %>">
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email"><%= __('contact.form.email') %> *</label>
+              <input type="email" id="email" name="email" required placeholder="<%= __('contact.form.placeholder.email') %>">
+            </div>
+            <div class="form-group">
+              <label for="phone"><%= __('contact.form.phone') %> *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="<%= __('contact.form.placeholder.phone') %>">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject"><%= __('contact.form.subject') %></label>
+            <select id="subject" name="subject">
+              <option value=""><%= __('contact.form.subject') %></option>
+              <option value="solar"><%= __('products.categories.solar') %></option>
+              <option value="battery"><%= __('products.categories.battery') %></option>
+              <option value="station"><%= __('products.categories.station') %></option>
+              <option value="smart"><%= __('products.categories.smart') %></option>
+              <option value="cooperation"><%= __('contact.types.partnership') %></option>
+              <option value="other"><%= __('contact.types.other') %></option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message"><%= __('contact.form.message') %> *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="<%= __('contact.form.placeholder.message') %>"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-large">
+            <%= __('contact.form.submit') %> <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('contact.info.address') %></span>
+      <h2 class="section-title"><%= __('contact.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="map-wrapper">
+      <div class="map-placeholder">
+        <i class="fas fa-map-marked-alt"></i>
+        <p><%= __('common.loading') %></p>
+        <p class="map-address"><%= __('contact.info.addressValue') %></p>
+      </div>
+    </div>
+  </div>
+</section>

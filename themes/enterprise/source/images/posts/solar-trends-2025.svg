@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A86B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg5)"/>
+  <circle cx="650" cy="150" r="120" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="100" cy="400" r="100" fill="rgba(255,255,255,0.03)"/>
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">2025光伏趋势</text>
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)">技术创新 · 市场变革</text>
+  <rect x="50" y="160" width="220" height="140" rx="10" fill="rgba(0,168,107,0.4)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="160" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">N型电池崛起</text>
+  <text x="160" y="230" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">TOPCon占比35%</text>
+  <text x="160" y="255" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">HJT占比12%</text>
+  <text x="160" y="280" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">效率突破25%</text>
+  <rect x="290" y="160" width="220" height="140" rx="10" fill="rgba(255,215,0,0.3)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">市场规模</text>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">全球新增400GW+</text>
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">中国新增250GW+</text>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">储能配比提升</text>
+  <rect x="530" y="160" width="220" height="140" rx="10" fill="rgba(46,80,119,0.5)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="640" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">技术方向</text>
+  <text x="640" y="230" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">钙钛矿叠层</text>
+  <text x="640" y="255" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">智能运维</text>
+  <text x="640" y="280" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.9)" text-anchor="middle">光储融合</text>
+  <rect x="50" y="330" width="700" height="120" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">投资机会</text>
+  <text x="160" y="410" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle">工商业分布式</text>
+  <text x="160" y="435" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">经济性持续改善</text>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle">户用光伏</text>
+  <text x="400" y="435" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">农村市场潜力大</text>
+  <text x="640" y="410" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.9)" text-anchor="middle">光储融合</text>
+  <text x="640" y="435" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">应用场景丰富</text>
+</svg>

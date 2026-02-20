@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg7)"/>
+  <g transform="translate(550, 250)">
+    <path d="M-50,-60 L50,-60 L50,60 L-50,60 Z" fill="rgba(255,255,255,0.2)" rx="10"/>
+    <circle cx="0" cy="-20" r="25" fill="rgba(255,255,255,0.8)"/>
+    <rect x="-20" y="15" width="40" height="5" rx="2" fill="rgba(255,255,255,0.6)"/>
+    <rect x="-15" y="25" width="30" height="5" rx="2" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="30" cy="-40" r="15" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="-40" cy="30" r="12" fill="rgba(255,255,255,0.25)"/>
+  </g>
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white">AI发展趋势</text>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.7)">AI Trends 2025</text>
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="80" height="80" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="24" fill="white">01</text>
+    <rect x="100" y="0" width="80" height="80" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <text x="120" y="50" font-family="Arial, sans-serif" font-size="24" fill="white">02</text>
+    <rect x="200" y="0" width="80" height="80" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <text x="220" y="50" font-family="Arial, sans-serif" font-size="24" fill="white">03</text>
+  </g>
+</svg>

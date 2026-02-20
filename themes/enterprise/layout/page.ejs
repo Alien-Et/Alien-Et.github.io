@@ -1,0 +1,24 @@
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <h1 class="page-title animate-fade-up"><%= page.title %></h1>
+      <% if (page.subtitle) { %>
+      <p class="page-subtitle animate-fade-up delay-1"><%= page.subtitle %></p>
+      <% } %>
+      <nav class="breadcrumb animate-fade-up delay-2">
+        <a href="<%= url_for('/') %>"><%= __('menu.home') %></a>
+        <i class="fas fa-chevron-right"></i>
+        <span><%= page.title %></span>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section class="page-content-section">
+  <div class="container">
+    <div class="page-content animate-on-scroll">
+      <%- page.content %>
+    </div>
+  </div>
+</section>

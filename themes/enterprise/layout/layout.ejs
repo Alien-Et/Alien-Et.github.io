@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="<%= config.language || 'zh-CN' %>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= page.title ? page.title + ' - ' + config.title : config.title %></title>
+  <meta name="description" content="<%= config.description %>">
+  <meta name="keywords" content="<%= (page.tags && page.tags.length) ? page.tags.map(t => t.name).join(',') : config.keywords %>">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="<%= url_for('/css/style.css') %>">
+  <link rel="stylesheet" href="<%= url_for('/css/animations.css') %>">
+  
+  <%- open_graph({twitter_id: theme.social.twitter, google_plus: theme.social.google_plus, fb_admins: theme.social.fb_admins, fb_app_id: theme.social.fb_app_id}) %>
+  
+  <style>
+    :root {
+      --primary-color: <%= theme.colors.primary %>;
+      --secondary-color: <%= theme.colors.secondary %>;
+      --accent-color: <%= theme.colors.accent %>;
+      --dark-color: <%= theme.colors.dark %>;
+      --light-color: <%= theme.colors.light %>;
+    }
+  </style>
+</head>
+<body class="<%= is_home() ? 'is-home' : '' %> <%= page.layout ? 'page-' + page.layout : '' %>">
+  
+  <%- partial('_partial/header') %>
+  
+  <main class="main-content">
+    <%- body %>
+  </main>
+  
+  <%- partial('_partial/footer') %>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="<%= url_for('/js/main.js') %>"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <h1 class="page-title animate-fade-up"><%= __('about.title') %></h1>
+      <p class="page-subtitle animate-fade-up delay-1"><%= __('about.subtitle') %></p>
+      <nav class="breadcrumb animate-fade-up delay-2">
+        <a href="<%= url_for('/') %>"><%= __('menu.home') %></a>
+        <i class="fas fa-chevron-right"></i>
+        <span><%= __('about.title') %></span>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section class="about-intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-content animate-on-scroll">
+        <span class="section-tag"><%= __('about.intro.tag') %></span>
+        <h2 class="section-title text-left"><%= __('about.intro.title') %></h2>
+        <p><%= __('about.intro.content') %></p>
+        <p><%= __('about.intro.address') %></p>
+        <div class="intro-features">
+          <div class="intro-feature">
+            <i class="fas fa-check-circle"></i>
+            <span><%= __('about.intro.cert1') %></span>
+          </div>
+          <div class="intro-feature">
+            <i class="fas fa-check-circle"></i>
+            <span><%= __('about.intro.cert2') %></span>
+          </div>
+          <div class="intro-feature">
+            <i class="fas fa-check-circle"></i>
+            <span><%= __('about.intro.cert3') %></span>
+          </div>
+        </div>
+      </div>
+      <div class="intro-image animate-on-scroll" data-delay="200">
+        <div class="image-wrapper">
+          <img src="/images/about/company.svg" alt="Company">
+          <div class="image-badge">
+            <span class="badge-number">15+</span>
+            <span class="badge-text"><%= __('statistics.items.experience') %></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('about.history.title') %></span>
+      <h2 class="section-title"><%= __('about.history.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item animate-on-scroll">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2010</span>
+          <h3><%= __('about.history.2010.title') %></h3>
+          <p><%= __('about.history.2010.content') %></p>
+        </div>
+      </div>
+      <div class="timeline-item animate-on-scroll" data-delay="100">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2013</span>
+          <h3><%= __('about.history.2013.title') %></h3>
+          <p><%= __('about.history.2013.content') %></p>
+        </div>
+      </div>
+      <div class="timeline-item animate-on-scroll" data-delay="200">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2016</span>
+          <h3><%= __('about.history.2016.title') %></h3>
+          <p><%= __('about.history.2016.content') %></p>
+        </div>
+      </div>
+      <div class="timeline-item animate-on-scroll" data-delay="300">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2019</span>
+          <h3><%= __('about.history.2019.title') %></h3>
+          <p><%= __('about.history.2019.content') %></p>
+        </div>
+      </div>
+      <div class="timeline-item animate-on-scroll" data-delay="400">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2022</span>
+          <h3><%= __('about.history.2022.title') %></h3>
+          <p><%= __('about.history.2022.content') %></p>
+        </div>
+      </div>
+      <div class="timeline-item animate-on-scroll" data-delay="500">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025</span>
+          <h3><%= __('about.history.2025.title') %></h3>
+          <p><%= __('about.history.2025.content') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('about.team.title') %></span>
+      <h2 class="section-title"><%= __('about.team.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="team-grid">
+      <div class="team-card animate-on-scroll">
+        <div class="team-avatar">
+          <img src="/images/about/team1.svg" alt="Team">
+        </div>
+        <div class="team-info">
+          <h3><%= __('about.team.member1.name') %></h3>
+          <span class="team-role"><%= __('about.team.member1.role') %></span>
+          <p><%= __('about.team.member1.desc') %></p>
+        </div>
+      </div>
+      <div class="team-card animate-on-scroll" data-delay="100">
+        <div class="team-avatar">
+          <img src="/images/about/team2.svg" alt="Team">
+        </div>
+        <div class="team-info">
+          <h3><%= __('about.team.member2.name') %></h3>
+          <span class="team-role"><%= __('about.team.member2.role') %></span>
+          <p><%= __('about.team.member2.desc') %></p>
+        </div>
+      </div>
+      <div class="team-card animate-on-scroll" data-delay="200">
+        <div class="team-avatar">
+          <img src="/images/about/team3.svg" alt="Team">
+        </div>
+        <div class="team-info">
+          <h3><%= __('about.team.member3.name') %></h3>
+          <span class="team-role"><%= __('about.team.member3.role') %></span>
+          <p><%= __('about.team.member3.desc') %></p>
+        </div>
+      </div>
+      <div class="team-card animate-on-scroll" data-delay="300">
+        <div class="team-avatar">
+          <img src="/images/about/team4.svg" alt="Team">
+        </div>
+        <div class="team-info">
+          <h3><%= __('about.team.member4.name') %></h3>
+          <span class="team-role"><%= __('about.team.member4.role') %></span>
+          <p><%= __('about.team.member4.desc') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="culture-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('about.culture.title') %></span>
+      <h2 class="section-title"><%= __('about.culture.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="culture-grid">
+      <div class="culture-card animate-on-scroll">
+        <div class="culture-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <h3><%= __('about.culture.value1.title') %></h3>
+        <p><%= __('about.culture.value1.content') %></p>
+      </div>
+      <div class="culture-card animate-on-scroll" data-delay="100">
+        <div class="culture-icon">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <h3><%= __('about.culture.value2.title') %></h3>
+        <p><%= __('about.culture.value2.content') %></p>
+      </div>
+      <div class="culture-card animate-on-scroll" data-delay="200">
+        <div class="culture-icon">
+          <i class="fas fa-medal"></i>
+        </div>
+        <h3><%= __('about.culture.value3.title') %></h3>
+        <p><%= __('about.culture.value3.content') %></p>
+      </div>
+      <div class="culture-card animate-on-scroll" data-delay="300">
+        <div class="culture-icon">
+          <i class="fas fa-globe-asia"></i>
+        </div>
+        <h3><%= __('about.culture.value4.title') %></h3>
+        <p><%= __('about.culture.value4.content') %></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cert-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag"><%= __('about.cert.title') %></span>
+      <h2 class="section-title"><%= __('about.cert.subtitle') %></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-item animate-on-scroll">
+        <img src="/images/about/cert1.svg" alt="Cert">
+        <span><%= __('about.cert.item1') %></span>
+      </div>
+      <div class="cert-item animate-on-scroll" data-delay="100">
+        <img src="/images/about/cert2.svg" alt="Cert">
+        <span><%= __('about.cert.item2') %></span>
+      </div>
+      <div class="cert-item animate-on-scroll" data-delay="200">
+        <img src="/images/about/cert3.svg" alt="Cert">
+        <span><%= __('about.cert.item3') %></span>
+      </div>
+      <div class="cert-item animate-on-scroll" data-delay="300">
+        <img src="/images/about/cert4.svg" alt="Cert">
+        <span><%= __('about.cert.item4') %></span>
+      </div>
+    </div>
+  </div>
+</section>

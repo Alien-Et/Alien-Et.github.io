@@ -1,0 +1,280 @@
+menu:
+  home: Home
+  about: About Us
+  products: Products
+  news: News
+  contact: Contact
+
+site:
+  name: XX Technology
+  slogan: Green Energy, Brightening the Future
+  description: A high-tech enterprise focused on R&D and manufacturing of new energy photovoltaic panels and batteries
+
+index:
+  hero:
+    title: Clean Energy Solutions
+    subtitle: Providing high-efficiency solar panels and energy storage products globally
+    cta: Learn More
+    contact: Contact Now
+    scroll: Scroll Down
+  products:
+    title: Products & Services
+    subtitle: Comprehensive new energy solutions for you
+    learn_more: Learn More
+  partners:
+    title: Partners
+    subtitle: Working Together for a Better Future
+
+features:
+  title: Core Advantages
+  tag: Why Choose Us
+  items:
+    tech:
+      title: Leading Technology
+      desc: 300+ core patents in photovoltaic and battery technology
+    green:
+      title: Green & Eco-friendly
+      desc: Committed to carbon neutrality and sustainable development
+    storage:
+      title: Efficient Storage
+      desc: Industry-leading battery energy density with long lifespan
+    global:
+      title: Global Service
+      desc: Products sold to 50+ countries and regions
+
+products:
+  title: Products & Services
+  subtitle: Comprehensive new energy solutions for you
+  categories:
+    solar: Solar Panels
+    battery: Energy Storage
+    station: Solar Power Plants
+    smart: Smart Energy
+  desc:
+    solar: High-efficiency monocrystalline solar panels
+    battery: LiFePO4 energy storage system
+    station: Distributed solar power plant solutions
+    smart: Intelligent energy management system
+  solar:
+    desc: XX Technology G series photovoltaic modules adopt advanced PERC cell technology and half-cell packaging process, with module conversion efficiency exceeding 23%%, reaching industry-leading level. Products cover monocrystalline, polycrystalline, bifacial double-glass and other types to meet different application scenarios.
+    feature1: Conversion efficiency up to 23%%+
+    feature2: 30-year linear power warranty
+    feature3: Anti-PID, anti-LETID technology
+    feature4: Passed TUV, UL, CE certification
+  battery:
+    desc: XX Technology energy storage system adopts safe and reliable lithium iron phosphate (LFP) battery technology, with cycle life exceeding 6000 times and calendar life up to 15 years. Products cover household energy storage, commercial and industrial energy storage, large-scale energy storage power stations and other application scenarios.
+    feature1: Cycle life over 6000 times
+    feature2: Intelligent BMS management system
+    feature3: Modular design, flexible expansion
+    feature4: 10-year warranty service
+  station:
+    desc: Providing full-process services from project planning, scheme design, equipment supply, engineering construction to operation and maintenance management. Covering household distributed, commercial and industrial distributed, ground power station and other types, with cumulative installed capacity exceeding 5GW.
+    feature1: Full-process one-stop service
+    feature2: Professional design team
+    feature3: Intelligent operation and maintenance platform
+    feature4: 25-year power generation guarantee
+  smart:
+    desc: Intelligent energy management platform based on Internet of Things and artificial intelligence technology, realizing intelligent operation of photovoltaic power generation, energy storage dispatching and power consumption management. Optimize energy use efficiency and reduce electricity costs through big data analysis.
+    feature1: Real-time monitoring and early warning
+    feature2: AI intelligent dispatching algorithm
+    feature3: Multi-terminal data synchronization
+    feature4: Energy efficiency analysis report
+  process:
+    title: Service Process
+    subtitle: Professional Service, Full Protection
+    step1:
+      title: Demand Communication
+      desc: In-depth understanding of customer electricity needs and site conditions
+    step2:
+      title: Scheme Design
+      desc: Customized new energy solution design
+    step3:
+      title: Engineering Implementation
+      desc: Professional team construction to ensure project quality
+    step4:
+      title: Operation & Maintenance Service
+      desc: 7x24 hours operation and maintenance guarantee, worry-free use
+  industries:
+    title: Application Scenarios
+    subtitle: Covering Multiple Application Scenarios
+    residential:
+      title: Household Photovoltaic
+      desc: Home rooftop photovoltaic, household energy storage system
+    commercial:
+      title: Commercial & Industrial Distributed
+      desc: Factory, park, commercial complex photovoltaic
+    ground:
+      title: Ground Power Station
+      desc: Large centralized photovoltaic power station construction
+    storage:
+      title: Energy Storage Power Station
+      desc: Grid-side, user-side energy storage system
+    integrated:
+      title: Integrated PV-Storage-Charging
+      desc: Photovoltaic + energy storage + charging pile comprehensive solution
+    overseas:
+      title: Overseas Projects
+      desc: Overseas photovoltaic power station EPC general contracting
+  learn_more: Learn More
+  consult: Consult Now
+
+statistics:
+  items:
+    experience: Years Experience
+    patents: Core Patents
+    countries: Countries Served
+    capacity: Annual Capacity
+
+partners:
+  title: Partners
+  subtitle: Working Together for a Better Future
+
+about:
+  title: About Us
+  subtitle: Green Energy, Brightening the Future
+  intro:
+    tag: Company Profile
+    title: XX Technology, Brightening the Future
+    content: Founded in 2010, XX Technology is a high-tech enterprise focused on R&D and manufacturing of new energy photovoltaic panels and batteries. After more than a decade of development, we have become a leading new energy solution provider.
+    address: Headquartered in XX Province, with production bases in Inner Mongolia, Qinghai, and Vietnam. Over 2,000 employees, with R&D personnel accounting for more than 30%%.
+    cert1: National High-tech Enterprise Certification
+    cert2: National Green Factory Certification
+    cert3: 300+ Core Patents
+  history:
+    title: Our History
+    subtitle: Development Journey
+    2010:
+      title: Company Founded
+      content: Established XX Technology, focusing on solar panel R&D
+    2013:
+      title: Business Expansion
+      content: Expanded business nationwide, market share increased significantly
+    2016:
+      title: R&D Center
+      content: Established national-level R&D center to strengthen technological innovation
+    2019:
+      title: Capacity Upgrade
+      content: Completed capacity upgrade, annual capacity reached 5GW
+    2022:
+      title: Global Layout
+      content: Global sales network covers 50+ countries and regions
+    2025:
+      title: Future Outlook
+      content: Committed to becoming a global leading new energy solution provider
+  team:
+    title: Core Team
+    subtitle: Professional Team, Excellent Service
+    member1:
+      name: John Doe
+      role: CEO
+      desc: 20+ years of experience in new energy industry
+    member2:
+      name: Jane Smith
+      role: CTO
+      desc: Doctor of Photovoltaic Engineering, 15+ years of R&D experience
+    member3:
+      name: Robert Johnson
+      role: COO
+      desc: Expert in manufacturing management and supply chain optimization
+    member4:
+      name: Lisa Wang
+      role: CMO
+      desc: Leading marketing strategy and global market expansion
+  culture:
+    title: Corporate Culture
+    subtitle: Core Values
+    value1:
+      title: Innovation
+      content: Continuously exploring new technologies and solutions
+    value2:
+      title: Integrity
+      content: Honest operation, treating customers and partners sincerely
+    value3:
+      title: Excellence
+      content: Striving for perfection in every product and service
+    value4:
+      title: Sustainability
+      content: Committed to green energy and environmental protection
+  cert:
+    title: Certifications & Honors
+    subtitle: Industry Recognition
+    item1: ISO9001 Quality Management System Certification
+    item2: ISO14001 Environmental Management System Certification
+    item3: IEC61215 Solar Panel Certification
+    item4: CE Certification
+    item5: TUV Certification
+    item6: UL Certification
+
+news:
+  title: News
+  subtitle: Latest Updates
+  read_more: Read More
+  categories:
+    all: All
+    company: Company News
+    industry: Industry News
+    tech: Technology
+
+contact:
+  title: Contact Us
+  subtitle: Looking Forward to Working with You
+  form:
+    title: Online Consultation
+    subtitle: Please fill in the following information, we will contact you as soon as possible
+    name: Name
+    company: Company
+    email: Email
+    phone: Phone
+    subject: Inquiry Type
+    message: Message
+    submit: Submit
+    placeholder:
+      name: Please enter your name
+      company: Please enter company name
+      email: Please enter your email
+      phone: Please enter your phone
+      message: Please enter your message
+  types:
+    product: Product Inquiry
+    quote: Quote Request
+    support: Technical Support
+    partnership: Business Partnership
+    other: Other
+  info:
+    title: Contact Information
+    address: Address
+    phone: Phone
+    email: Email
+    hours: Business Hours
+    addressValue: XX Road, XX District, XX City, XX Province
+    phoneValue: xxx-xxxx-xxxx
+    emailValue: xxxxxx@xxx.com
+    hoursValue: Monday to Friday 9:00 - 18:00
+    wechat: WeChat
+  social:
+    title: Follow Us
+
+footer:
+  copyright: All Rights Reserved
+  icp: ICP License
+  links:
+    privacy: Privacy Policy
+    terms: Terms of Service
+
+pagination:
+  prev: Previous
+  next: Next
+
+floating_cards:
+  capacity: Annual Capacity 15GW+
+  countries: 50+ Countries
+  energy: Green Energy
+
+common:
+  language: EN
+  loading: Loading...
+  error: Error
+  success: Success
+  confirm: Confirm
+  cancel: Cancel
+  required: Required

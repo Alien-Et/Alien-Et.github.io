@@ -1,0 +1,82 @@
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="<%= url_for('/') %>" class="footer-logo">
+            <span class="logo-icon"><i class="fas fa-leaf"></i></span>
+            <span class="logo-text"><%= __('site.name') %></span>
+          </a>
+          <p class="footer-desc"><%= __('site.description') %></p>
+          <div class="footer-social">
+            <a href="<%= theme.social.weibo %>" class="social-link" target="_blank" rel="noopener">
+              <i class="fab fa-weibo"></i>
+            </a>
+            <a href="#" class="social-link wechat-trigger">
+              <i class="fab fa-weixin"></i>
+            </a>
+            <a href="<%= theme.social.linkedin %>" class="social-link" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4 class="footer-title"><%= __('menu.home') %></h4>
+          <ul class="footer-nav">
+            <li><a href="<%= url_for('/') %>"><%= __('menu.home') %></a></li>
+            <li><a href="<%= url_for('/about/') %>"><%= __('menu.about') %></a></li>
+            <li><a href="<%= url_for('/products/') %>"><%= __('menu.products') %></a></li>
+            <li><a href="<%= url_for('/news/') %>"><%= __('menu.news') %></a></li>
+            <li><a href="<%= url_for('/contact/') %>"><%= __('menu.contact') %></a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4 class="footer-title"><%= __('products.title') %></h4>
+          <ul class="footer-nav">
+            <li><a href="<%= url_for('/products/') %>#solar"><%= __('products.categories.solar') %></a></li>
+            <li><a href="<%= url_for('/products/') %>#battery"><%= __('products.categories.battery') %></a></li>
+            <li><a href="<%= url_for('/products/') %>#station"><%= __('products.categories.station') %></a></li>
+            <li><a href="<%= url_for('/products/') %>#smart"><%= __('products.categories.smart') %></a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4 class="footer-title"><%= __('contact.info.title') %></h4>
+          <ul class="contact-list">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>xx省xx市xx區xx路xx號</span>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <a href="tel:xxx-xxxx-xxxx">xxx-xxxx-xxxx</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:xxxxxx@xxx.com">xxxxxx@xxx.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-content">
+        <p class="copyright">© <%= new Date().getFullYear() %> <%= __('site.name') %> - <%= __('footer.copyright') %></p>
+        <p class="icp"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">xxICP備xxxxxxxx號</a></p>
+        <div class="footer-bottom-links">
+          <a href="<%= url_for('/privacy/') %>"><%= __('footer.links.privacy') %></a>
+          <a href="<%= url_for('/terms/') %>"><%= __('footer.links.terms') %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+</footer>
