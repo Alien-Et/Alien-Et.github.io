@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5077;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <circle cx="650" cy="150" r="120" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="100" cy="400" r="100" fill="rgba(255,255,255,0.03)"/>
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">储能系统</text>
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)">削峰填谷 · 降本增效</text>
+  <rect x="100" y="180" width="200" height="280" rx="15" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <rect x="120" y="200" width="160" height="40" rx="5" fill="rgba(0,168,107,0.6)"/>
+  <rect x="120" y="250" width="160" height="40" rx="5" fill="rgba(0,168,107,0.5)"/>
+  <rect x="120" y="300" width="160" height="40" rx="5" fill="rgba(0,168,107,0.4)"/>
+  <rect x="120" y="350" width="160" height="40" rx="5" fill="rgba(0,168,107,0.3)"/>
+  <rect x="120" y="400" width="160" height="40" rx="5" fill="rgba(0,168,107,0.2)"/>
+  <text x="200" y="227" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电池模组</text>
+  <text x="200" y="277" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电池模组</text>
+  <text x="200" y="327" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电池模组</text>
+  <text x="200" y="377" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电池模组</text>
+  <text x="200" y="427" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电池模组</text>
+  <rect x="400" y="200" width="300" height="200" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <text x="550" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">EMS能量管理系统</text>
+  <line x1="420" y1="270" x2="680" y2="270" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">实时监测</text>
+  <text x="450" y="330" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">智能调度</text>
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">远程运维</text>
+  <text x="580" y="300" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">故障预警</text>
+  <text x="580" y="330" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">数据分析</text>
+  <text x="580" y="360" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">报表生成</text>
+  <line x1="300" y1="320" x2="400" y2="300" stroke="rgba(0,212,170,0.6)" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>
