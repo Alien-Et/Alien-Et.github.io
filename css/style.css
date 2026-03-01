@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  max-width: 100%;
+}
+
 :root {
   --primary-color: #00A86B;
   --secondary-color: #FFD700;
@@ -118,10 +123,12 @@ img {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   z-index: 1000;
   padding: 20px 0;
   transition: all var(--transition-normal);
   background: transparent;
+  box-sizing: border-box;
 }
 
 .site-header.scrolled {
