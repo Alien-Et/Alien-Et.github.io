@@ -4,5 +4,9 @@ db.json
 *.log
 node_modules/
 public/
+<<<<<<< HEAD
 .deploy_git/
+=======
+.deploy*/
 _multiconfig.yml
+>>>>>>> master
