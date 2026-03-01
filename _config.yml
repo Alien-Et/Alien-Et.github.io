@@ -97,4 +97,4 @@ theme: enterprise
 deploy:
   type: git
   repo: https://github.com/Alien-Et/Alien-Et.github.io.git
-  branch: main
+  branch: gh-pages
