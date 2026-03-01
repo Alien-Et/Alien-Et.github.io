@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="70" viewBox="0 0 180 70">
+  <defs>
+    <linearGradient id="logoGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#33691e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8bc34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="180" height="70" rx="8" fill="url(#logoGrad4)"/>
+  <rect x="15" y="15" width="40" height="40" rx="4" fill="white" opacity="0.9"/>
+  <path d="M25 35 Q30 25 35 35 T45 35" stroke="#33691e" stroke-width="3" fill="none"/>
+  <circle cx="35" cy="30" r="3" fill="#33691e"/>
+  <text x="65" y="32" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">国电投</text>
+  <text x="65" y="48" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.8)">SPIC</text>
+</svg>
