@@ -17,7 +17,7 @@ default_language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://www.enterprise.com
+url: https://alien-et.github.io
 permalink: news/:title/
 permalink_defaults:
 pretty_urls:
