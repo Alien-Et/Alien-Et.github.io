@@ -1,0 +1,83 @@
+<article class="article-page">
+  <section class="article-hero">
+    <div class="article-hero-bg">
+      <% if (page.cover) { %>
+      <img src="<%= page.cover %>" alt="<%= page.title %>">
+      <% } %>
+    </div>
+    <div class="container">
+      <div class="article-hero-content">
+        <div class="article-meta animate-fade-up">
+          <span class="article-category"><%= page.category || __('news.categories.company') %></span>
+          <span class="article-date"><i class="fas fa-calendar"></i> <%= date(page.date, 'YYYY-MM-DD') %></span>
+          <span class="article-reading"><i class="fas fa-clock"></i> <%= Math.ceil(strip_html(page.content).length / 400) %> min</span>
+        </div>
+        <h1 class="article-title animate-fade-up delay-1"><%= page.title %></h1>
+        <% if (page.subtitle) { %>
+        <p class="article-subtitle animate-fade-up delay-2"><%= page.subtitle %></p>
+        <% } %>
+      </div>
+    </div>
+  </section>
+  
+  <div class="article-wrapper">
+    <div class="container">
+      <div class="article-layout">
+        <aside class="article-sidebar">
+          <div class="sidebar-widget toc-widget">
+            <h4 class="widget-title">TOC</h4>
+            <div class="toc-content">
+              <%- toc(page.content) %>
+            </div>
+          </div>
+          <div class="sidebar-widget share-widget">
+            <h4 class="widget-title">Share</h4>
+            <div class="share-buttons">
+              <a href="#" class="share-btn weibo" title="Weibo">
+                <i class="fab fa-weibo"></i>
+              </a>
+              <a href="#" class="share-btn wechat" title="WeChat">
+                <i class="fab fa-weixin"></i>
+              </a>
+              <a href="#" class="share-btn linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </aside>
+        
+        <main class="article-main">
+          <div class="article-content animate-on-scroll">
+            <%- page.content %>
+          </div>
+          
+          <div class="article-footer">
+            <div class="article-tags">
+              <i class="fas fa-tags"></i>
+              <% if (page.tags && page.tags.length) { %>
+              <% page.tags.forEach(function(tag) { %>
+              <a href="<%= url_for(tag.path) %>" class="tag"><%= tag.name %></a>
+              <% }); %>
+              <% } %>
+            </div>
+          </div>
+          
+          <div class="article-nav">
+            <% if (page.prev) { %>
+            <a href="<%= url_for(page.prev.path) %>" class="nav-prev">
+              <span class="nav-label"><i class="fas fa-chevron-left"></i> <%= __('pagination.prev') %></span>
+              <span class="nav-title"><%= page.prev.title %></span>
+            </a>
+            <% } %>
+            <% if (page.next) { %>
+            <a href="<%= url_for(page.next.path) %>" class="nav-next">
+              <span class="nav-label"><%= __('pagination.next') %> <i class="fas fa-chevron-right"></i></span>
+              <span class="nav-title"><%= page.next.title %></span>
+            </a>
+            <% } %>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</article>

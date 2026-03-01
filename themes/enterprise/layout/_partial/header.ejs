@@ -1,0 +1,110 @@
+<header class="site-header" id="header">
+  <div class="header-container">
+    <div class="header-left">
+      <a href="<%= url_for('/') %>" class="site-logo">
+        <span class="logo-icon">
+          <i class="fas fa-leaf"></i>
+        </span>
+        <span class="logo-text"><%= __('site.name') %></span>
+      </a>
+    </div>
+    
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="<%= url_for('/') %>" class="nav-link <%= is_current('/') ? 'active' : '' %>">
+            <%= __('menu.home') %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= url_for('/about/') %>" class="nav-link <%= is_current('/about/') ? 'active' : '' %>">
+            <%= __('menu.about') %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= url_for('/products/') %>" class="nav-link <%= is_current('/products/') ? 'active' : '' %>">
+            <%= __('menu.products') %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= url_for('/news/') %>" class="nav-link <%= is_current('/news/') ? 'active' : '' %>">
+            <%= __('menu.news') %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= url_for('/contact/') %>" class="nav-link <%= is_current('/contact/') ? 'active' : '' %>">
+            <%= __('menu.contact') %>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="header-right">
+      <div class="language-switcher">
+        <button class="lang-btn" id="langBtn" aria-label="切换语言">
+          <i class="fas fa-globe"></i>
+          <span class="current-lang"><%= __('common.language') %></span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <a href="/" class="lang-option" data-lang="zh-CN">
+            <span class="lang-flag">🇨🇳</span>
+            <span class="lang-name">简体中文</span>
+          </a>
+          <a href="/zh-TW/" class="lang-option" data-lang="zh-TW">
+            <span class="lang-flag">🇹🇼</span>
+            <span class="lang-name">繁體中文</span>
+          </a>
+          <a href="/en/" class="lang-option" data-lang="en">
+            <span class="lang-flag">🇺🇸</span>
+            <span class="lang-name">English</span>
+          </a>
+          <a href="/ja/" class="lang-option" data-lang="ja">
+            <span class="lang-flag">🇯🇵</span>
+            <span class="lang-name">日本語</span>
+          </a>
+        </div>
+      </div>
+      <a href="<%= url_for('/contact/') %>" class="header-cta btn btn-primary">
+        <span><%= __('menu.contact') %></span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="菜单">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item">
+          <a href="<%= url_for('/') %>" class="mobile-nav-link"><%= __('menu.home') %></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="<%= url_for('/about/') %>" class="mobile-nav-link"><%= __('menu.about') %></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="<%= url_for('/products/') %>" class="mobile-nav-link"><%= __('menu.products') %></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="<%= url_for('/news/') %>" class="mobile-nav-link"><%= __('menu.news') %></a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="<%= url_for('/contact/') %>" class="mobile-nav-link"><%= __('menu.contact') %></a>
+        </li>
+      </ul>
+      <div class="mobile-lang-switcher">
+        <a href="/" class="mobile-lang-option">简体中文</a>
+        <a href="/zh-TW/" class="mobile-lang-option">繁體中文</a>
+        <a href="/en/" class="mobile-lang-option">English</a>
+        <a href="/ja/" class="mobile-lang-option">日本語</a>
+      </div>
+      <a href="<%= url_for('/contact/') %>" class="mobile-cta btn btn-primary">
+        <%= __('menu.contact') %>
+      </a>
+    </nav>
+  </div>
+</header>

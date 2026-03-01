@@ -1,0 +1,280 @@
+menu:
+  home: ホーム
+  about: 会社概要
+  products: 製品・サービス
+  news: ニュース
+  contact: お問い合わせ
+
+site:
+  name: XX科技
+  slogan: グリーンエネルギーで、未来を照らす
+  description: 新エネルギー太陽光パネルとバッテリーの研究開発・製造に特化したハイテク企業
+
+index:
+  hero:
+    title: クリーンエネルギーソリューション
+    subtitle: 世界中に高効率太陽光パネルと蓄電池製品を提供
+    cta: 詳しく見る
+    contact: 今すぐ相談
+    scroll: 下にスクロール
+  products:
+    title: 製品・サービス
+    subtitle: 包括的な新エネルギーソリューション
+    learn_more: 詳細を見る
+  partners:
+    title: パートナー
+    subtitle: 共に歩み、共に未来を創る
+
+features:
+  title: コア優位性
+  tag: 私たちを選ぶ理由
+  items:
+    tech:
+      title: 技術リーダーシップ
+      desc: 太陽光・蓄電池関連の300以上のコア特許
+    green:
+      title: グリーン・エコ
+      desc: カーボンニュートラルと持続可能な発展に取り組む
+    storage:
+      title: 高効率蓄電
+      desc: 業界トップクラスの電池エネルギー密度と長寿命
+    global:
+      title: グローバルサービス
+      desc: 50以上の国と地域に製品を販売
+
+products:
+  title: 製品・サービス
+  subtitle: 包括的な新エネルギーソリューション
+  categories:
+    solar: 太陽光パネル
+    battery: 蓄電池
+    station: 太陽光発電所
+    smart: スマートエネルギー
+  desc:
+    solar: 高効率単結晶シリコン太陽光パネル
+    battery: リン酸鉄リチウム蓄電システム
+    station: 分散型太陽光発電所ソリューション
+    smart: インテリジェントエネルギー管理システム
+  solar:
+    desc: XX科技Gシリーズ太陽光モジュールは、最先端のPERCセル技術とハーフセルパッケージングプロセスを採用し、モジュール変換効率は23%%を超え、業界をリードするレベルに到達しています。製品は単結晶、多結晶、両面ダブルガラスなど多くのタイプをカバーし、異なる応用シナリオのニーズを満たします。
+    feature1: 変換効率は23%%+に達する
+    feature2: 30年間の直線的電力保証
+    feature3: PID対策、LETID対策技術
+    feature4: TUV、UL、CE認証取得
+  battery:
+    desc: XX科技のエネルギー貯蔵システムは、安全で信頼性の高いリン酸鉄リチウム（LFP）バッテリー技術を採用し、サイクル寿命は6000回を超え、カレンダー寿命は15年以上に達します。製品は家庭用エネルギー貯蔵、商業・産業用エネルギー貯蔵、大規模エネルギー貯蔵発電所など多くの応用シナリオをカバーしています。
+    feature1: サイクル寿命は6000回以上
+    feature2: インテリジェントBMS管理システム
+    feature3: モジュラー設計、柔軟な拡張
+    feature4: 10年間の保証サービス
+  station:
+    desc: プロジェクト計画、計画設計、機器供給、工事建設から運用管理までの全工程サービスを提供します。家庭用分散型、商業・産業用分散型、地上発電所など多くのタイプをカバーし、累計設置容量は5GWを超えています。
+    feature1: 全工程ワンストップサービス
+    feature2: 専門設計チーム
+    feature3: インテリジェント運用管理プラットフォーム
+    feature4: 25年間の発電保証
+  smart:
+    desc: モノのインターネットと人工知能技術に基づくスマートエネルギー管理プラットフォームで、太陽光発電、エネルギー貯蔵調度、電力使用管理のインテリジェント運用を実現します。ビッグデータ分析を通じてエネルギー使用効率を最適化し、電力コストを削減します。
+    feature1: リアルタイムモニタリングと予告警報
+    feature2: AIインテリジェントディスパッチアルゴリズム
+    feature3: マルチターミナルデータ同期
+    feature4: エネルギー効率分析レポート
+  process:
+    title: サービスプロセス
+    subtitle: 専門的なサービス、フルサポート
+    step1:
+      title: ニーズコミュニケーション
+      desc: 顧客の電力ニーズとサイト条件を深く理解する
+    step2:
+      title: 計画設計
+      desc: カスタマイズされた新エネルギーソリューション設計
+    step3:
+      title: 工事実施
+      desc: 専門チームによる施工、工事の質を確保
+    step4:
+      title: 運用管理サービス
+      desc: 7×24時間の運用管理サポート、安心してお使いいただけます
+  industries:
+    title: 応用シナリオ
+    subtitle: 多様な応用シナリオをカバー
+    residential:
+      title: 家庭用太陽光
+      desc: 家庭の屋根太陽光、家庭用エネルギー貯蔵システム
+    commercial:
+      title: 商業・産業用分散型
+      desc: 工場、団地、商業複合施設の太陽光
+    ground:
+      title: 地上発電所
+      desc: 大規模集中型太陽光発電所建設
+    storage:
+      title: エネルギー貯蔵発電所
+      desc: 電力系統側、ユーザー側のエネルギー貯蔵システム
+    integrated:
+      title: 光・貯・充統合
+      desc: 太陽光+エネルギー貯蔵+充電スタンドの総合ソリューション
+    overseas:
+      title: 海外プロジェクト
+      desc: 海外太陽光発電所EPC請負工事
+  learn_more: 詳細を見る
+  consult: 今すぐ相談
+
+statistics:
+  items:
+    experience: 年の業界経験
+    patents: コア特許
+    countries: サービス国
+    capacity: 年間生産能力
+
+partners:
+  title: パートナー
+  subtitle: 共に歩み、共に未来を創る
+
+about:
+  title: 会社概要
+  subtitle: グリーンエネルギーで、未来を照らす
+  intro:
+    tag: 会社紹介
+    title: XX科技、未来を照らす
+    content: XX科技は2010年に設立され、新エネルギー太陽光パネルとバッテリーの研究開発・製造に特化したハイテク企業です。10年以上の発展を経て、中国有数の新エネルギーソリューションプロバイダーとなりました。
+    address: 本社はXX省にあり、内モンゴル、青海省、ベトナムに生産拠点を持つ。従業員数は2000人以上、研究開発人員の割合は30%%を超える。
+    cert1: 国家ハイテク企業認定
+    cert2: 国家グリーン工場認定
+    cert3: 300件以上のコア特許
+  history:
+    title: 沿革
+    subtitle: 発展の軌跡
+    2010:
+      title: 会社設立
+      content: XX科技を設立し、太陽光パネルの研究開発に注力
+    2013:
+      title: 事業拡大
+      content: 事業を全国に拡大し、市場シェアを大幅に向上
+    2016:
+      title: 研究開発センター
+      content: 国家級研究開発センターを設立し、技術革新を強化
+    2019:
+      title: 生産能力の拡張
+      content: 生産能力のアップグレードを完了し、年間生産能力が5GWに到達
+    2022:
+      title: グローバル展開
+      content: グローバル販売ネットワークが50以上の国と地域をカバー
+    2025:
+      title: 未来の展望
+      content: 世界をリードする新エネルギーソリューションプロバイダーになることを目指す
+  team:
+    title: コアチーム
+    subtitle: 専門チーム、優れたサービス
+    member1:
+      name: 張三
+      role: CEO
+      desc: 新エネルギー業界で20年以上の経験
+    member2:
+      name: 李四
+      role: CTO
+      desc: 太陽光エンジニアリング博士、15年以上の研究開発経験
+    member3:
+      name: 王五
+      role: COO
+      desc: 製造管理とサプライチェーン最適化の専門家
+    member4:
+      name: 趙六
+      role: CMO
+      desc: マーケティング戦略とグローバル市場拡大をリード
+  culture:
+    title: 企業文化
+    subtitle: コア価値観
+    value1:
+      title: イノベーション
+      content: 新技術とソリューションを不断に探索
+    value2:
+      title: 誠実さ
+      content: 誠実な経営、顧客とパートナーを誠意を持って扱う
+    value3:
+      title: 卓越性
+      content: 各製品とサービスの完璧さを追求
+    value4:
+      title: 持続可能性
+      content: グリーンエネルギーと環境保護に取り組む
+  cert:
+    title: 資格と栄誉
+    subtitle: 業界からの認知
+    item1: ISO9001品質管理システム認証
+    item2: ISO14001環境管理システム認証
+    item3: IEC61215太陽光モジュール認証
+    item4: CE認証
+    item5: TUV認証
+    item6: UL認証
+
+news:
+  title: ニュース
+  subtitle: 最新情報
+  read_more: 続きを読む
+  categories:
+    all: すべて
+    company: 企業ニュース
+    industry: 業界動向
+    tech: 技術情報
+
+contact:
+  title: お問い合わせ
+  subtitle: お客様とのご縁を大切に
+  form:
+    title: オンライン相談
+    subtitle: 以下の情報をご入力ください。できるだけ早くご連絡いたします
+    name: お名前
+    company: 会社名
+    email: メール
+    phone: 電話番号
+    subject: お問い合わせ種類
+    message: メッセージ
+    submit: 送信
+    placeholder:
+      name: お名前を入力してください
+      company: 会社名を入力してください
+      email: メールアドレスを入力してください
+      phone: 電話番号を入力してください
+      message: メッセージを入力してください
+  types:
+    product: 製品について
+    quote: 見積もり依頼
+    support: 技術サポート
+    partnership: ビジネスパートナーシップ
+    other: その他
+  info:
+    title: 連絡先
+    address: 住所
+    phone: 電話
+    email: メール
+    hours: 営業時間
+    addressValue: XX省XX市XX区XX路XX号
+    phoneValue: xxx-xxxx-xxxx
+    emailValue: xxxxxx@xxx.com
+    hoursValue: 月曜日から金曜日 9:00 - 18:00
+    wechat: WeChat
+  social:
+    title: フォローする
+
+footer:
+  copyright: 著作権所有
+  icp: ICPライセンス
+  links:
+    privacy: プライバシーポリシー
+    terms: 利用規約
+
+pagination:
+  prev: 前へ
+  next: 次へ
+
+floating_cards:
+  capacity: 年間生産能力 15GW+
+  countries: 50+ カ国
+  energy: グリーンエネルギー
+
+common:
+  language: 日
+  loading: 読み込み中...
+  error: エラー
+  success: 成功
+  confirm: 確認
+  cancel: キャンセル
+  required: 必須

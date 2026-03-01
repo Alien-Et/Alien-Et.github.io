@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00A86B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006B4A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg7)"/>
+  <circle cx="650" cy="150" r="120" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="100" cy="400" r="100" fill="rgba(255,255,255,0.05)"/>
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">绿色工厂认证</text>
+  <text x="50" y="120" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)">国家级绿色制造荣誉</text>
+  <circle cx="200" cy="280" r="100" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+  <circle cx="200" cy="280" r="70" fill="rgba(0,168,107,0.5)"/>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">绿色</text>
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">工厂</text>
+  <path d="M150 250 L165 235 L180 250 L173 250 L173 270 L167 270 L167 250 Z" fill="rgba(255,255,255,0.6)" transform="rotate(-45,200,280)"/>
+  <rect x="350" y="160" width="400" height="280" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="550" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">六大评价维度</text>
+  <rect x="370" y="220" width="170" height="40" rx="5" fill="rgba(0,168,107,0.4)"/>
+  <text x="455" y="247" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">基础设施</text>
+  <rect x="560" y="220" width="170" height="40" rx="5" fill="rgba(0,212,170,0.4)"/>
+  <text x="645" y="247" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">管理体系</text>
+  <rect x="370" y="270" width="170" height="40" rx="5" fill="rgba(255,215,0,0.3)"/>
+  <text x="455" y="297" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">能源投入</text>
+  <rect x="560" y="270" width="170" height="40" rx="5" fill="rgba(46,80,119,0.5)"/>
+  <text x="645" y="297" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">资源利用</text>
+  <rect x="370" y="320" width="170" height="40" rx="5" fill="rgba(0,168,107,0.3)"/>
+  <text x="455" y="347" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">环境排放</text>
+  <rect x="560" y="320" width="170" height="40" rx="5" fill="rgba(0,212,170,0.3)"/>
+  <text x="645" y="347" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">产品生态</text>
+  <text x="550" y="410" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.9)" text-anchor="middle">单位产品碳排放降低15.8% | 清洁能源占比35%</text>
+</svg>

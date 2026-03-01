@@ -1,0 +1,273 @@
+menu:
+  home: 首页
+  about: 关于我们
+  products: 产品服务
+  news: 新闻动态
+  contact: 联系我们
+
+site:
+  name: XX科技
+  slogan: 绿色能源，照亮未来
+  description: 专注于新能源光伏板和新能源电池研发制造的高新技术企业
+
+index:
+  hero:
+    title: 清洁能源解决方案
+    subtitle: 为全球提供高效光伏板与储能电池产品
+    cta: 了解更多
+    contact: 立即咨询
+    scroll: 向下滚动
+  products:
+    title: 产品与服务
+    subtitle: 为您提供全方位的新能源解决方案
+    learn_more: 了解详情
+  partners:
+    title: 合作伙伴
+    subtitle: 携手共进，共创未来
+
+features:
+  title: 核心优势
+  tag: 为什么选择我们
+  items:
+    tech:
+      title: 技术领先
+      desc: 拥有300+项光伏与电池核心专利技术
+    green:
+      title: 绿色环保
+      desc: 致力于碳中和，推动可持续发展
+    storage:
+      title: 高效储能
+      desc: 电池能量密度行业领先，寿命超长
+    global:
+      title: 全球服务
+      desc: 产品远销50+国家和地区
+
+products:
+  title: 产品与服务
+  subtitle: 为您提供全方位的新能源解决方案
+  categories:
+    solar: 光伏组件
+    battery: 储能电池
+    station: 光伏电站
+    smart: 智慧能源
+  desc:
+    solar: 高效单晶硅光伏板
+    battery: 磷酸铁锂储能系统
+    station: 分布式光伏电站解决方案
+    smart: 智能能源管理系统
+  learn_more: 了解详情
+  consult: 立即咨询
+  solar:
+    desc: XX科技G系列光伏组件采用先进的PERC电池技术和半片封装工艺，组件转换效率突破23%%，达到行业领先水平。产品涵盖单晶、多晶、双面双玻等多种类型，满足不同应用场景需求。
+    feature1: 高转换效率
+    feature2: 优异的弱光性能
+    feature3: 高可靠性设计
+    feature4: 25年发电保障
+  battery:
+    desc: XX科技储能系统采用安全可靠的磷酸铁锂(LFP)电池技术，循环寿命超过6000次，日历寿命达15年以上。产品覆盖户用储能、工商业储能、大型储能电站等多种应用场景。
+    feature1: 安全可靠
+    feature2: 长循环寿命
+    feature3: 高能量密度
+    feature4: 智能BMS管理
+  station:
+    desc: 提供从勘察设计、设备供应、安装施工到并网运维的一站式光伏电站解决方案。专业团队确保项目高效推进，按时交付。
+    feature1: 全流程服务
+    feature2: 专业施工团队
+    feature3: 高效并网支持
+    feature4: 智能监控系统
+  smart:
+    desc: 基于物联网和人工智能技术的智慧能源管理平台，实现光伏发电、储能调度、用电管理的智能化运营。通过大数据分析优化能源使用效率，降低用电成本。
+    feature1: 实时监控与预警
+    feature2: AI智能调度算法
+    feature3: 多终端数据同步
+    feature4: 能效分析报告
+  process:
+    title: 服务流程
+    subtitle: 专业服务，全程保障
+    step1:
+      title: 需求沟通
+      desc: 深入了解客户用电需求和场地条件
+    step2:
+      title: 方案设计
+      desc: 定制化新能源解决方案设计
+    step3:
+      title: 工程实施
+      desc: 专业团队施工，确保工程质量
+    step4:
+      title: 运维服务
+      desc: 7x24小时运维保障，无忧使用
+  industries:
+    title: 应用场景
+    subtitle: 覆盖多种应用场景
+    residential:
+      title: 户用光伏
+      desc: 家庭屋顶光伏、户用储能系统
+    commercial:
+      title: 工商业分布式
+      desc: 工厂、园区、商业综合体光伏
+    ground:
+      title: 地面电站
+      desc: 大型集中式光伏电站建设
+    storage:
+      title: 储能电站
+      desc: 电网侧、用户侧储能系统
+    integrated:
+      title: 光储充一体化
+      desc: 光伏+储能+充电桩综合方案
+    overseas:
+      title: 海外项目
+      desc: 海外光伏电站EPC总承包
+
+statistics:
+  items:
+    experience: 年行业经验
+    patents: 核心专利
+    countries: 服务国家
+    capacity: 年产能
+
+partners:
+  title: 合作伙伴
+  subtitle: 携手共进，共创未来
+
+about:
+  title: 关于我们
+  subtitle: 绿色能源，照亮未来
+  intro:
+    tag: 公司简介
+    title: XX科技，照亮未来
+    content: XX科技成立于2010年，是一家专注于新能源光伏板和新能源电池研发制造的高新技术企业。经过十余年的发展，我们已成为国内领先的新能源解决方案提供商。
+    address: 总部位于XX省，在内蒙古、青海和越南等地设有生产基地。员工超过2000人，研发人员占比超过30%%。
+    cert1: 国家高新技术企业认证
+    cert2: 国家绿色工厂认证
+    cert3: 300+项核心专利
+  history:
+    title: 发展历程
+    subtitle: 发展历程
+    2010:
+      title: 公司成立
+      content: 成立XX科技，专注于光伏板研发
+    2013:
+      title: 业务扩展
+      content: 业务扩展至全国，市场份额大幅提升
+    2016:
+      title: 研发中心
+      content: 成立国家级研发中心，加强技术创新
+    2019:
+      title: 产能升级
+      content: 完成产能升级，年产能达到5GW
+    2022:
+      title: 全球布局
+      content: 全球销售网络覆盖50+国家和地区
+    2025:
+      title: 未来展望
+      content: 致力于成为全球领先的新能源解决方案提供商
+  team:
+    title: 核心团队
+    subtitle: 专业团队，优质服务
+    member1:
+      name: 张三
+      role: 首席执行官
+      desc: 20+年新能源行业经验
+    member2:
+      name: 李四
+      role: 首席技术官
+      desc: 光伏工程博士，15+年研发经验
+    member3:
+      name: 王五
+      role: 首席运营官
+      desc: 制造管理与供应链优化专家
+    member4:
+      name: 赵六
+      role: 首席营销官
+      desc: 领导市场战略与全球市场拓展
+  culture:
+    title: 企业文化
+    subtitle: 核心价值观
+    value1:
+      title: 创新
+      content: 不断探索新技术与解决方案
+    value2:
+      title: 诚信
+      content: 诚信经营，真诚对待客户与合作伙伴
+    value3:
+      title: 卓越
+      content: 精益求精，追求产品与服务的完美
+    value4:
+      title: 可持续发展
+      content: 致力于绿色能源与环境保护
+  cert:
+    title: 资质荣誉
+    subtitle: 行业认可
+    item1: ISO9001质量管理体系认证
+    item2: ISO14001环境管理体系认证
+    item3: 国家高新技术企业认证
+    item4: 300+项核心专利
+
+news:
+  title: 新闻资讯
+  subtitle: 了解最新动态
+  read_more: 阅读更多
+  categories:
+    all: 全部
+    company: 公司新闻
+    industry: 行业动态
+    tech: 技术分享
+
+contact:
+  title: 联系我们
+  subtitle: 期待与您的合作
+  form:
+    title: 在线咨询
+    subtitle: 请填写以下信息，我们会尽快与您联系
+    name: 姓名
+    company: 公司名称
+    email: 邮箱
+    phone: 电话
+    subject: 咨询类型
+    message: 留言内容
+    submit: 提交咨询
+    placeholder:
+      name: 请输入您的姓名
+      company: 请输入公司名称
+      email: 请输入您的邮箱
+      phone: 请输入您的电话
+      message: 请输入您的留言内容
+  types:
+    product: 产品咨询
+    quote: 报价请求
+    support: 技术支持
+    partnership: 商务合作
+    other: 其他
+  info:
+    title: 联系方式
+    address: 地址
+    phone: 电话
+    email: 邮箱
+    wechat: 微信
+  social:
+    title: 关注我们
+
+footer:
+  copyright: 版权所有
+  icp: 备案号
+  links:
+    privacy: 隐私政策
+    terms: 使用条款
+
+pagination:
+  prev: 上页
+  next: 下页
+
+floating_cards:
+  capacity: 年产能 15GW+
+  countries: 50+ 国家
+  energy: 绿色能源
+
+common:
+  language: 简
+  loading: 加载中...
+  error: 出错了
+  success: 成功
+  confirm: 确认
+  cancel: 取消
+  required: 必填项
